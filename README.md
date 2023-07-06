@@ -37,9 +37,15 @@ La aplicación fue escrita en VSCode pero todo funciona correctamente en la term
 ```
 nvm test
 ```
-Que valida, compila y corre las pruebas de JUnit. 
+Que valida, compila y corre las pruebas de JUnit. Este comando es útil si se quiere solo las pruebas.
 
 ```
 nvm install
 ```
-Que valida, compila, corre las pruebas, empaqueta, verifica e instala el paquete en el repositorio local.
+Que valida, compila, corre las pruebas, empaqueta, verifica e instala el paquete en el repositorio local. Este comando es útil se si quiere hacer las pruebas y obtener el paquete `.jar`. Una vez se tenga este archivo, se ingresa a su respectiva carpeta `...\Game-Store-Testing\target` y se escribe lo siguiente en la terminal para ejecutar la aplicación:
+
+```
+java -jar game-store-1.0-SNAPSHOT.jar
+```
+
+
