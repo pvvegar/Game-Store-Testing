@@ -48,4 +48,8 @@ Que valida, compila, corre las pruebas, empaqueta, verifica e instala el paquete
 java -jar game-store-1.0-SNAPSHOT.jar
 ```
 
+## EclEmma
 
+![ezgif com-video-to-gif(1)](https://github.com/pvvegar/Game-Store-Testing/assets/129302057/1a0980b1-dd29-43e8-a86d-d49e6b1be609)
+
+La cobertura es de aproximadamente 15%. Cabe recalcar que la aplicación utiliza GUI, por ende, es difícil hacer una cobertura extensiva con solo JUnit, para estos casos, es bueno agregar más pruebas con herramientas como AssertJ Swing. 
